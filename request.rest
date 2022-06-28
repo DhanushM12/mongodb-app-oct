@@ -9,3 +9,23 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8000/subscriber/
+
+
+###
+
+GET http://localhost:8000/subscriber/id
+
+
+###
+
+DELETE http://localhost:8000/subscriber/id
+
+
+###
+PATCH  http://localhost:8000/subscriber/id
+Content-Type: application/json
+
+{
+    "name": "***",
+    "channel": "***"
+}
